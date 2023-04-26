@@ -1,0 +1,79 @@
+h1{ 
+    text-align: center;
+}
+.card{
+    margin: 5% auto;
+    width: 1400px;
+    max-width: 1000px;
+    height: 1300px;
+    background-color: #e8e8e8;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0);
+    border-radius: 10px;
+    padding: 2%;
+}
+.header{
+    font-weight: bold;
+    opacity: 50%;
+    line-height: 40px; 
+    font-size: 7pt;
+    letter-spacing: 2pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #273d46;
+}
+.underHeader{
+    font-size: 18pt;
+    margin-top: 0.5%;
+    color: #273d46;
+    text-align: center;
+    line-height: 25pt;
+}
+.image{ 
+    margin: 40px auto 50px auto;
+    border: 8px solid white;
+    width: fit-content;
+}
+.text{ 
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 20pt;
+    color: #273d46;
+    opacity: 80%;
+    padding: 0px 165px 0px 165px;
+}
+.list{
+    margin: 40px;
+    line-height: 18pt;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-image: url("/img/tick.png");
+    padding: 0px 0px 0px 150px;
+    background-repeat: repeat-y;
+    background-size: 22px;
+    background-position: 120px 0px;
+}
+.divButton
+{
+    padding: 0px 0px 0px 160px;
+}
+.buttonNext{
+    cursor: pointer;
+    background-color: #58beb8; 
+    border-radius: 20px;
+    line-height: 20pt;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-shadow: 0 0 40px 0px #80b7b3; 
+}
+.buttonNext:hover {
+    background-color: #3e8e41;
+  }
+.space{
+    visibility: hidden;
+}
